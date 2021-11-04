@@ -59,7 +59,7 @@ body{
 }
 .site-nav__item a:hover,
 .site-nav__item a:active{
-    color: rgb(25, 12, 141);
+    color: rgb(12, 141, 33);
 }
 .site-nav__item a:active{
     opacity: 0.6;
