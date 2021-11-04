@@ -31,6 +31,13 @@ body{
     line-height: 30px;
     color: #6C63FF;
 }
+.logo-text:hover,
+.logo-text:active{
+    color: blueviolet;
+}
+.logo-text:active{
+    opacity: 0.6;
+}
 
 /* site-nav qismi */
 
@@ -50,6 +57,13 @@ body{
     line-height: 20px;
     color: #000000;
 }
+.site-nav__item a:hover,
+.site-nav__item a:active{
+    color: rgb(25, 12, 141);
+}
+.site-nav__item a:active{
+    opacity: 0.6;
+}
 
 /* Hero qismi boshlanishi */
 .hero{
@@ -64,6 +78,7 @@ body{
 .hero-content{
     width: 423px;
 }
+
 .hero-content>a{
     font-style: normal;
     font-weight: 500;
@@ -72,6 +87,11 @@ body{
     padding: 15px 18px;
     border: 1px solid #B7B3B3;
     margin-right: 20px;
+}
+.hero-content a:hover,
+.hero-content a:active{
+    background-color: #6C63FF;
+ 
 }
 .hero-title{
     font-style: normal;
@@ -200,7 +220,13 @@ body{
     letter-spacing: 0.06em;
     color: #6C63FF;
 }
-
+.greed-link:hover,
+.greed-link:active{
+    color: rgb(16, 233, 63);
+}
+.greed-link:active{
+    opacity: 0.6;
+}
 .logo>a{
     display: flex;
     align-items: center;
@@ -273,7 +299,7 @@ body{
 
 /* Footer qismi boshlandi */
 footer{
-    background: #462996;
+    background: #3d1c97a4;
     display: flex;
     align-items:flex-start;
     justify-content: space-around;
@@ -304,6 +330,13 @@ footer{
     font-size: 18px;
     line-height: 22px;
     color: #000000;
+}
+.footer-item a:hover,
+.footer-item a:active{
+    color: rgb(158, 60, 15);
+}
+.footer-item a:active{
+    opacity: 0.6;
 }
 
 .content a{
